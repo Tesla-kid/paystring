@@ -18,6 +18,7 @@ RUN apk --no-cache add postgresql-client &&\
     npm cache clean --force &&\
     npm install &&\
     npm run build
+
 EXPOSE 8080 8081
 
 # run all future commands as this user
